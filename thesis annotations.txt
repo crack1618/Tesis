@@ -1,0 +1,89 @@
+
+técnicas de inferencia de contexto:
+-probabilisticas
+-machine learning
+-autómata de estados finita
+
+Tesis:
+
+Para el modelo de la bd se usa un enfoque de primero modelo creando el modelo de la base de datos con entity frameowkr
+
+(Providing personalized web services by means of contrext-aware spoken dialog systems, David griol)
+-modulo para saber qué debería de estar disponible para quién y dónde y cuándo debería de estar disponible
+-perfil contextual de los dispositivos
+-perfil de los usuarios(preferencias, atributos)
+-filtrado de información individual de usuario
+-modulo de manejo de errores y comportamientos espontaneos
+-tomar en cuenta los datos históricos de las acciones del usuario, también las secuencias de las interacciones que realiza el usuario.
+
+(context aware agents for user oriented web services discovery and execution)
+- usan agentes que escuchan todo el tiempo las entradas de texto de un usuario y correlacionan las entradas de texto y genera una consulta para buscar servicios web locales o en red.
+-manejador de perfil de usuario
+
+(towared a model of collaborative information behavior in organizations)
+-presentan CIB [collaborative information behavior] which covers 3 conceptos importatntes: búsqueda de información collaborativa, recuperación, y uso.
+-ref(fig 2 individual behavior vs collaborative behavior)
+
+(annother)
+
+to take into acount: 
+¿A quién mostrar información o ayudar? triggers que se disparen cuando el nivel de presencia social o habilidad de algún usuario sea bajo.
+¿cómo mostrarle la información? saber la locación física y/o lógica del usuario y saber en qué widgets o interfaces desplegar la información, o en todo caso saber qué comandos ejecutar.
+¿qué información mostrar o qué instrucción ejecutar? saber el tipo de awareness que necesita y en base a esto mostrar la información que sea de ayuda al usuario. O en otro caso saber que comando ejecutar para poder adaptar el sistema para que mejorela participación del usuario.
+
+context retrieval
+-listeners which are going to intercept data from clients or other equipment
+
+context management
+- modulo para registrar datos de la aplicación, es decir eventos, ejecuciones, vistas(para desplegar información).
+- modulo para registrar la información del usuario(id, ).
+- módulo para registrar la informaación dekl dispositivo.
+
+FOR MARCO TEÓRICO
+
+en la siguiente tabla hecha por (Farouk Belkadi,n, Eric Bonjour, Mauricio Camargob, Nad ege Troussier, Benoit Eynard, Situation model to suport awarness in collaboration design, 2013) se muestra la suma de un estudio sobre awareness.(tabla 1)
+
+    awareness           question
+    social awareness    -what should I expect from other members of this group?
+                        -how will I intetract with this group?
+                        -what role will i take in this group?
+                        -What roles will the other members of the gropu assume?
+
+    Task Awarenees      -What do I know about this topic and the structure of the task?
+                        -What do others know about this topic and task?
+                        -What steps must we take to complete the task?
+                        -how be the outcome be evaluated?
+                        -what tools/materials are nedded to complete the task?
+                        -how much time is required? how much time is available
+                        .
+                        .
+                        .
+
+(Nardi, B., 1996. Studying context: a comparison of activity theory, situated action models and distributed cognition.) compares 3
+
+FOR STATE OF THE ART
+
+ontology based agent; context: Software process developement
+
+
+
+servidor: localhost\SQLEXPRESS
+auth: SQL server
+usr: SA
+contraseña: a1s2d3
+-----------------------------------------------------------
+http://github.com/
+https://github.com/servkey/coral.git -for tortoise git
+
+
+crear rama nueva a partir de rama develop [create branch]
+crear plataforma OSAX-SMG
+tortoise git - add
+carpeta para scripts, 
+omitir dll, ejecutables y binarios.
+commit
+rebase
+
+
+recibir información
+ajaxx for web

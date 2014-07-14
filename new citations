@@ -1,0 +1,11 @@
+new citations
+
+@INPROCEEDINGS{6580977, 
+author={Pereira de Souza, J. and Tacla, C.A and Beal, F. and Cabrera Paraiso, E. and Gimenez-Lugo, G.A}, 
+booktitle={Computer Supported Cooperative Work in Design (CSCWD), 2013 IEEE 17th International Conference on}, 
+title={An ontology-based agent for context aware software process development}, 
+year={2013}, 
+month={June}, 
+pages={287-292}, 
+keywords={ontologies (artificial intelligence);software engineering;ubiquitous computing;CSCW-SD;MODUS-SD;context aware software process development;ontology based agent;Computational modeling;Computer architecture;Context;Context modeling;Documentation;Ontologies;Software;agents;context;ontologies;software development}, 
+doi={10.1109/CSCWD.2013.6580977},}
