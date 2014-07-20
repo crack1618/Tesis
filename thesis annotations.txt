@@ -63,7 +63,19 @@ en la siguiente tabla hecha por (Farouk Belkadi,n, Eric Bonjour, Mauricio Camarg
 
 FOR STATE OF THE ART
 
-ontology based agent; context: Software process developement
+(2013, Modelling regulated social spaces for groupware applications[MARS])
+
+
+
+(2013, Ontology based agent for software process developement)
+ontology based agent; context: Software process developement. Monitorea y reconoce la ejecución de tareas de los desarrolladores para facilitar la ejecución de las mismas tareas en un futuro cercano. Basada en un sistema multiagente donde usan agentes cliente y agentes de servicio.
+
+Ontología: usa 3 tipos de ontología: la primera llamada de alto nivel que incluye una ontología contextual y, opcionalmente, procesos de software. La segunda llamada de integración, ubicada entre la ontología de nivel más alto y las ontologías de los sensores, conecta los datos obtenidos por los sensores en la arquitectura. La última ontología, de los sensores, se ubica en el nivel más bajo, y está presente en cada uno de los sensores, estas ontologías deben de heredar características de la ontología de integración.
+
+
+
+Además de estás capas ontológicas, se encuentra un mecanismo de inferencia que ejecuta consultas en ontologías, 
+
 
 
 
@@ -87,3 +99,25 @@ rebase
 
 recibir información
 ajaxx for web
+
+doubts
+
+¿qué tiene mars de colaborativo?¿o qué le falta para que sea colaborativo? porque lo que puedo observar es que usa el mismo modelo contextual que usted usa.
+
+¿si las reglas las va a defiinir el desarrollador, entonces que apoye a la actiidad colaborativa de un conjunto de usuarios ya no va a depender de mi?
+
+
+ledeer automaton:
+
+0:{reserved tokens}
+1:{error state}
+2:{'(':2, '¬':2, 'EXIT':8, RESERVED:3, NOT_VALUATED:1}
+3:{REFERENCE:4, ')':8, '\n'[AND NO PARENTESIS STORED]:11,  NOT_VALUED:1}
+4:{'{':5, NOT_VALUED: 1}
+5:{"'":6, NOT_VALUED: 1}
+6:{STRING:6, "'"[CLOSE QUOTATION]:7, NOT_VALUED: 1}
+7:{'}':8, NOT_VALUED: 1}
+8:[ACCEPT]{')':8[IF PARENT MATCHES REMOVE OPPAR, ELSE 1], REFERENCE:9, BELONG:10, EXECUTE:10, '\n'[&& NO PARENTESIS]:11[AND ACCEPT!], NOT_VALUED: 1}
+9:{BACK TO 2}
+10:{'(':2, '¬':2, RESERVED:3, NOT_VALUED: 1}
+11:[ACCEPT]{goto: 1?????????}
