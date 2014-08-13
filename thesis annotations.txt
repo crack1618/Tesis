@@ -117,8 +117,47 @@ ledeer automaton:
 11:[ACCEPT]{goto: 1?????????}
 
 --------------------------------------------------------------
+https://github.com/rysi/serviciosdered/downloads
 
+http://localhost:26626/SrvSROSI.svc/GetEstudiante/2
+--------------------------------------------------------------
 for def design
 
-librerías mvvm
+librerías para js
+-sugarjs accceso fácil a fuentes json o arreglos
+-jquery
+-jqgrid construccion de grids del lado del cliente
+-google charts para charts
+-modernizer utilidad para crossbrowsing
 
+modelos mvvm js para UI
+-angularjs formularios
+-knockout
+
+-usar CDN para cargar repositorios
+-abstraer funcionalidades comunes
+-loader para que el usuario sepa siempre que peddo con la aplicacion
+-agrupacion para namespaces
+-utilizar json para paso de parámetros
+-no asignar eventos en el html
+-evitar las variables globales
+
+================================================================
+
+CSS
+librerias
+-Normalizer resetea css
+-compass normaliza las instrucciones de los diferentes navegadores
+-bootstrap
+-saas programacion que css no tiene, *mas complejo
+-less programacion que css no tiene, implementar en mvc 
+
+-resetear css
+-separar los ficheros por funcionalidad
+-Usar imágenes con nombre descriptivo
+-usar sprites y gestionarlos a parte
+-no usar impagenes como textos o fondos
+-utilizas tipografias online para originalidad
+-utilizarcolores planos o degradados
+-mejor usar .class que #id
+no anidar más de 3 elementos en css
