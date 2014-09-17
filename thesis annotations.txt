@@ -1,7 +1,6 @@
-técnicas de inferencia de contexto:
--probabilisticas
--machine learning
--autómata de estados finita
+sql server name :localhost\SQLEXPRESS
+user SA
+pass  a1s2d3
 
 Tesis:
 
@@ -22,43 +21,6 @@ Para el modelo de la bd se usa un enfoque de primero modelo creando el modelo de
 (towared a model of collaborative information behavior in organizations)
 -presentan CIB [collaborative information behavior] which covers 3 conceptos importatntes: búsqueda de información collaborativa, recuperación, y uso.
 -ref(fig 2 individual behavior vs collaborative behavior)
-
-(annother)
-
-to take into acount: 
-¿A quién mostrar información o ayudar? triggers que se disparen cuando el nivel de presencia social o habilidad de algún usuario sea bajo.
-¿cómo mostrarle la información? saber la locación física y/o lógica del usuario y saber en qué widgets o interfaces desplegar la información, o en todo caso saber qué comandos ejecutar.
-¿qué información mostrar o qué instrucción ejecutar? saber el tipo de awareness que necesita y en base a esto mostrar la información que sea de ayuda al usuario. O en otro caso saber que comando ejecutar para poder adaptar el sistema para que mejorela participación del usuario.
-
-context retrieval
--listeners which are going to intercept data from clients or other equipment
-
-context management
-- modulo para registrar datos de la aplicación, es decir eventos, ejecuciones, vistas(para desplegar información).
-- modulo para registrar la información del usuario(id, ).
-- módulo para registrar la informaación dekl dispositivo.
-
-FOR MARCO TEÓRICO
-
-en la siguiente tabla hecha por (Farouk Belkadi,n, Eric Bonjour, Mauricio Camargob, Nad ege Troussier, Benoit Eynard, Situation model to suport awarness in collaboration design, 2013) se muestra la suma de un estudio sobre awareness.(tabla 1)
-
-    awareness           question
-    social awareness    -what should I expect from other members of this group?
-                        -how will I intetract with this group?
-                        -what role will i take in this group?
-                        -What roles will the other members of the gropu assume?
-
-    Task Awarenees      -What do I know about this topic and the structure of the task?
-                        -What do others know about this topic and task?
-                        -What steps must we take to complete the task?
-                        -how be the outcome be evaluated?
-                        -what tools/materials are nedded to complete the task?
-                        -how much time is required? how much time is available
-                        .
-                        .
-                        .
-
-(Nardi, B., 1996. Studying context: a comparison of activity theory, situated action models and distributed cognition.) compares 3
 
 FOR STATE OF THE ART
 
@@ -82,82 +44,96 @@ Ontología: usa 3 tipos de ontología: la primera llamada de alto nivel que incl
 
 Además de estás capas ontológicas, se encuentra un mecanismo de inferencia que ejecuta consultas en ontologías, 
 
-servidor: localhost\SQLEXPRESS
-auth: SQL server
-usr: SA
-contraseña: a1s2d3
------------------------------------------------------------
-http://github.com/
-https://github.com/servkey/coral.git -for tortoise git
-
-
-crear rama nueva a partir de rama develop [create branch]
-crear plataforma OSAX-SMG
-tortoise git - add
-carpeta para scripts, 
-omitir dll, ejecutables y binarios.
-commit
-rebase
-
 -----------------------------------------------------------
 
-ledeer automaton:
-
-0:{reserved tokens}
-1:{error state}
-2:{'(':2, '¬':2, 'EXIT':8, RESERVED:3, NOT_VALUATED:1}
-3:{REFERENCE:4, ')':8, '\n'[AND NO PARENTESIS STORED]:11,  NOT_VALUED:1}
-4:{'{':5, NOT_VALUED: 1}
-5:{'"'[OPEN QUOTATION]:6, NOT_VALUED: 1}
-6:{STRING:6, '"'[CLOSE QUOTATION]:7, NOT_VALUED: 1}
-7:{'}':8, NOT_VALUED: 1}
-8:[ACCEPT]{')':8[IF PARENT MATCHES REMOVE OPPAR, ELSE 1], REFERENCE:9, BELONG:10, EXECUTE:10, '\n'[&& NO PARENTESIS]:11[AND ACCEPT!], NOT_VALUED: 1}
-9:{BACK TO 2}
-10:{'(':2, '¬':2, RESERVED:3, NOT_VALUED: 1}
-11:[ACCEPT]{goto: 1?????????}
-
---------------------------------------------------------------
 https://github.com/rysi/serviciosdered/downloads
 
 http://localhost:26626/SrvSROSI.svc/GetEstudiante/2
 --------------------------------------------------------------
-for def design
 
-librerías para js
--sugarjs accceso fácil a fuentes json o arreglos
--jquery
--jqgrid construccion de grids del lado del cliente
--google charts para charts
--modernizer utilidad para crossbrowsing
+Data Source=localhost\SQLEXPRESS;Initial Catalog=prueba;Persist Security Info=True;User ID=SA;Password=a1s2d3
 
-modelos mvvm js para UI
--angularjs formularios
--knockout
+===================================================================================
 
--usar CDN para cargar repositorios
--abstraer funcionalidades comunes
--loader para que el usuario sepa siempre que peddo con la aplicacion
--agrupacion para namespaces
--utilizar json para paso de parámetros
--no asignar eventos en el html
--evitar las variables globales
 
-================================================================
+pantallas prototipo
+dar de alta casos
+cambiar diseño de diagrama bd
+cambiar diseño de arquitectura, y desarrollar el motor de razonamiento
 
-CSS
-librerias
--Normalizer resetea css
--compass normaliza las instrucciones de los diferentes navegadores
--bootstrap
--saas programacion que css no tiene, *mas complejo
--less programacion que css no tiene, implementar en mvc 
+_===================================================================================
 
--resetear css
--separar los ficheros por funcionalidad
--Usar imágenes con nombre descriptivo
--usar sprites y gestionarlos a parte
--no usar impagenes como textos o fondos
--utilizas tipografias online para originalidad
--utilizarcolores planos o degradados
--mejor usar .class que #id
-no anidar más de 3 elementos en css
+intro primero contexto de problema ("groupware, dominio especifico..." - "para añadir CA ..." - "parte de un prototipo implementado parcialmente...")
+
+autómata
+
+
+interacciones:
+
+jugador se mueve
+jugador salta
+jugador dispara arma
+jugador recarga arma
+jugador cambia de arma
+jugador obtiene salud
+
+jugador obtiene protección
+jugador obtiene munición
+jugador envia mensaje
+jugador envia mensaje de voz predefinido
+jugador elige arma inicial
+jugador cambia apariencia de personaje
+jugador cambia rol
+jugador se agacha
+jugador se suicida
+jugador es eliminado
+jugador elimina oponente
+jugador reaparece
+jugador captura bandera
+jugador regresa bandera a su base
+jugador ve mapa
+jugador ve puntuaciones
+jugador elige modo de juego
+jugador vota por modo de juego
+
+//el programa se cierra al preionar f12
+
+===================================================================================================
+
+to do : 
+elimiar antecedentes
+agregar estado del arte 
+----------------------------------------------------------
+nuevas referencias
+
+"The What, Who, Where, when, Why and How of Context-awareness"
+
+three aspects for context aware behaviour for applications:
+    - presentation of information and services to a user
+    - automatic execution of a service
+    - tagging of context to information for later retrieval
+
+Challenges in CA computing
+    - development of a taxonomy and uniform representation of context types
+    - development of infrastructures topromote the design, implementation and evolution of CA apps
+    - discovery of compelling CA apps that assist our everyday interactions with ubiquitous computational services
+
+@inproceedings{Morse:2000:WC:633292.633518,
+ author = {Morse, David R. and Armstrong, Stephen and Dey, Anind K.},
+ title = {The What, Who, Where, when, Why and How of Context-awareness},
+ booktitle = {CHI '00 Extended Abstracts on Human Factors in Computing Systems},
+ series = {CHI EA '00},
+ year = {2000},
+ isbn = {1-58113-248-4},
+ location = {The Hague, The Netherlands},
+ pages = {371--371},
+ numpages = {1},
+ url = {http://doi.acm.org/10.1145/633292.633518},
+ doi = {10.1145/633292.633518},
+ acmid = {633518},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {context, context-awareness, metadata, ubiquitous computing, wearable computing.},
+} 
+
+
