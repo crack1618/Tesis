@@ -183,6 +183,13 @@ M.~Aehnelt, C.~Peter, and P.~M\"{u}sebeck, ``A discussion of using mental
   \url{http://doi.acm.org/10.1145/2413097.2413145}
 \BIBentrySTDinterwordspacing
 
+\bibitem{pereira2013CSCWD}
+J.~Pereira~de Souza, C.~Tacla, F.~Beal, E.~Cabrera~Paraiso, and
+  G.~Gimenez-Lugo, ``An ontology-based agent for context aware software process
+  development,'' in \emph{Computer Supported Cooperative Work in Design
+  (CSCWD), 2013 IEEE 17th International Conference on}, June 2013, pp.
+  287--292.
+
 \bibitem{hoyos2013domain}
 \BIBentryALTinterwordspacing
 J.~R. Hoyos, J.~G. Molina, and J.~A. Bot\'ia, ``A domain-specific language for
