@@ -29,4 +29,6 @@
 \contentsline {subsubsection}{\numberline {10.4.5}Uso de contexto}{27}{subsubsection.10.4.5}
 \contentsline {subsection}{\numberline {10.5}Sistemas Groupware Conscientes del Contexto}{28}{subsection.10.5}
 \contentsline {subsubsection}{\numberline {10.5.1}Arquitecturas}{29}{subsubsection.10.5.1}
-\contentsline {section}{\numberline {11}Contexto}{30}{section.11}
+\contentsline {section}{\numberline {11}An\'alisis y dise\~no}{31}{section.11}
+\contentsline {subsection}{\numberline {11.1}Caso de estudio}{32}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Prototipo}{34}{subsection.11.2}
